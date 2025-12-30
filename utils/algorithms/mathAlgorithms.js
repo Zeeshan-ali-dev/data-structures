@@ -21,12 +21,30 @@ const factorial = (n) => {
   // Big-O = O(n)
 };
 
-const primeNumber = (n) => {};
+const primeNumber = (n) => {
+  for (let i = 2; i < n; i++) {
+    if (n % i == 0) return console.log(`${n} is not Prime Number`);
+  }
+  console.log(`${n} is Prime Number`);
+  // Big-O = O(n)
+};
+
+const powerOfTwo = (n) => {
+  if (n < 1) return console.log(`${n} is not Power of Two`);
+  let num = n;
+  while (n > 1) {
+    if (n % 2 !== 0) return console.log(`${n} is not Power of Two`);
+    n = n / 2;
+  }
+  return console.log(`${num} is Power of Two`);
+  // Big-O = O(logn)
+};
 
 const mathAlgorithms = {
   fibonacciSequence,
   factorial,
   primeNumber,
+  powerOfTwo,
 };
 
 module.exports = { mathAlgorithms };

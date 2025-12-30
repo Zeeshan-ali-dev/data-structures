@@ -1,10 +1,10 @@
 const { mathAlgorithms } = require("./utils/algorithms/mathAlgorithms");
+const { searchAlgorightms } = require("./utils/algorithms/searchAlgorithms");
 
 const main = () => {
   console.time("Timer");
-  // mathAlgorithms.fibonacciSequence(15);
-  // mathAlgorithms.factorial(4);
-  mathAlgorithms.primeNumber(5);
+  // searchAlgorightms.linearSearch();
+  searchAlgorightms.binarySearch();
   console.timeEnd("Timer");
 };
 
