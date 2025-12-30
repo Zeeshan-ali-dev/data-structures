@@ -1,0 +1,21 @@
+{
+  "name": "data-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeeshan-ali-dev/data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Zeeshan-ali-dev/data-structures/issues"
+  },
+  "homepage": "https://github.com/Zeeshan-ali-dev/data-structures#readme"
+}
